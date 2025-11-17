@@ -6,3 +6,4 @@ render means page does not get reload but all the function inside it gets reload
 reload completely reloads page
 react don't use DOM it uses virtual Dom(vd) that's why react is faster as it uses vd.
 react have two virtual dom new and old vd this two part is called 'diffing'
+VITE bundler (npm create vite@latest app_name or .(dot)) (npm-note package manager)
