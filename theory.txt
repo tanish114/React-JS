@@ -1,9 +1,0 @@
-react is a liberary of js
-developed by facebook
-React work on SPA(single page application) but will work in multiple pages as well
-it is a component(function or chunk of code) based liberary
-render means page does not get reload but all the function inside it gets reloaded making page slower
-reload completely reloads page
-react don't use DOM it uses virtual Dom(vd) that's why react is faster as it uses vd.
-react have two virtual dom new and old vd this two part is called 'diffing'
-VITE bundler (npm create vite@latest app_name or .(dot)) (npm-note package manager)
