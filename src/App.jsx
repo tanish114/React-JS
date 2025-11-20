@@ -6,7 +6,7 @@
   <div>
     <h1>hello tanish</h1>
     <p>hello....</p>
-    <p>cybrom...</p>
+ 
   </div>
   
   
