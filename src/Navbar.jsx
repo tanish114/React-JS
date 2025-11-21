@@ -1,6 +1,13 @@
 const Navbar=()=>{
     return(
-        <p>Navbar</p>
+        <ul id="nav">
+<li>home</li>
+<li>register</li>
+<li>about</li>
+</ul>
+        // <p>Navbar</p>
+
+        
     )
 }
 
