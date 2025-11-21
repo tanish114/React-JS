@@ -2,6 +2,9 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import './Navar.css'
+// import logo from "../public/vite.svg"
+import img from "./assets/react.svg"
+
  const App=()=>{
 // javascript will be written here
 // let Tanish=()=>{
@@ -19,7 +22,10 @@ import './Navar.css'
  return(
   <div>
     <Navbar/>
-    <h1>Home page </h1>
+    <h1 style={{color:'red'}}>Home page </h1>
+    {/* <img src="slider.png" alt="none" /> */}
+    {/* <img src={logo} alt="" /> */}
+  <img src={img} alt="" style={{height:"50px",width:"60px"}}/>
     <Footer/>
 {/* 
     <button onClick={Tanish}>click me </button> */}
