@@ -19,7 +19,7 @@ let App=()=>{
             {/* <Child myname={newname} age="25"/> */}
 
             <Child mydata={myinfo}/>
-
+        
 
         </div>
     )
