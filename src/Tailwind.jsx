@@ -8,7 +8,7 @@ const App = () => {
     hey i am tanish
    </div> */}
 
-   <div className='text-emerald-700 border border-b-emerald-950 flex justify-between items-center '>
+   <div className='text-emerald-700 border border-b-emerald-950 flex justify-between items-center rounded-4xl '>
 
     <img src={logo} alt="" />
     <ul className='flex items-center justify-center gap-5'>
