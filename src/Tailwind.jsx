@@ -1,6 +1,7 @@
 import React from 'react'
 import './Tailwind.css'
 import logo from "../public/vite.svg"
+import { FaHome } from "react-icons/fa";
 const App = () => {
   return (
    <>
@@ -8,12 +9,12 @@ const App = () => {
     hey i am tanish
    </div> */}
 
-   <div className='text-emerald-700 border border-b-emerald-950 flex justify-between items-center rounded-4xl '>
+   <div className='text-emerald-700 border border-b-emerald-950 flex justify-between items-center rounded-4xl  px-3'>
 
     <img src={logo} alt="" />
-    <ul className='flex items-center justify-center gap-5'>
+    <ul className='hidden sm:block md:flex items-center justify-center gap-5 '>
       
-      <li>home</li>
+      <li> <FaHome />home</li>
       <li>about</li>
       <li>contact</li>
     </ul>
