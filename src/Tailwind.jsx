@@ -18,7 +18,7 @@ const App = () => {
       <li>contact</li>
     </ul>
     <button type='submit' className='border ' >sign in</button>
-    <h1>jfedn</h1>
+  
    </div>
    </>
   )
