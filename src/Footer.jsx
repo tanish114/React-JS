@@ -2,7 +2,7 @@ const Footer=()=>{
 // javascript will be written here
 
     return(
-        <p>Footer</p>
+        <p>Contact</p>
     )
 }
 
