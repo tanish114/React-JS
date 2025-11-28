@@ -6,6 +6,7 @@ const Child = (Propse) => {
     <>
     {/* <h1>hello child</h1>
 
+
     {/* <p>my name is {propse.myname}</p>
     <p>my age is {propse.age}</p> */}
 
