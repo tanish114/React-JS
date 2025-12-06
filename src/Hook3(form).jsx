@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
-
-
+import { Navigate, useNavigate } from 'react-router-dom'
 const Hook3 = () => {
 
   // let[name,setname]=useState("")
   // let[email,setemail]=useState("")
-
+let navigate=useNavigate()
   let [form,setform]=useState({
     name:"",
     email:"",
@@ -19,7 +18,7 @@ setform({...form ,[e.target.name] : e.target.value})
 
   let handlesubmit=(e)=>{
 
-
+  let valid=true
     // preventDefault stops page from reloading
     // e.preventDefault()   
     // console.log(name,email);
@@ -30,10 +29,19 @@ setform({...form ,[e.target.name] : e.target.value})
     if(form.name.trim()==""){
       alert("name cannot be empty")
     }
-    if(form.age.length<18 ){
-      alert("enter correct age")
+    else if(form.number.trim()==""){
+      alert("name cannot be empty")
+      valid=false
     }
+   if(valid){
+    alert("form submitted")
 
+    localStorage.setItem("name",form.name)
+    localStorage.setItem("email",form.email)
+    localStorage.setItem("number",form.number)
+
+    Navigate('/Home')
+   }
     
   }
   return (
@@ -51,7 +59,7 @@ setform({...form ,[e.target.name] : e.target.value})
     {/* Enter Number: <input type="text" name="number" value={form.number} onChange={(e)=>{setnumber(e.target.value)}} /> <br /> */}
     Enter your number: <input type="text" name='number' value={form.number} onChange={handlechange} /> <br /> <br />
 
-    Enter your Age: <input type="text" name="age" value={form.age} onChange={handlechange} /> <br /> <br />
+    
 
     <button type='submit'> save data</button>
 

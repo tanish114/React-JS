@@ -23,6 +23,7 @@ const Router = () => {
                 <Route path='ser' element={<Service/>} />
                 <Route path='contact' element={<Footer/>} />
                 <Route path='*' element={<h1>Error</h1>} />
+                
 
              </Route>
             
