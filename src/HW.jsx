@@ -2,18 +2,20 @@ import React, { useState } from 'react'
 
 
 const HW = () => {
-  let[count,setcount]=useState("")
+  const[text,settext]=useState("")
+  const[display,setdisplay]=useState("")
+
+  const handleclick=()=>{
+    setdisplay(text)
+  }
+ 
   return (
     <>
-      enter name: <input type="text" onChange={(e)=>{setcount(e.target.value.length)}} /> <br />
+  <input type="text" placeholder="enter text" onChange={(e)=>settext(e.target.value)} />
 
-      the count of character: {count}
+  <button onClick={handleclick}>show text</button>
 
-      
-
-      <button>red</button>
-
-      <button>Change</button>
+  <h2>{display}</h2>
 
       
 
