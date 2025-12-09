@@ -4,7 +4,7 @@ import './index.css'
 // import App from './App.jsx'
 // import App from './Propse.jsx'
 // import App from './Router.jsx'
-import App from './Map.jsx'
+import App from './Filter.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
