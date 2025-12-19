@@ -3,11 +3,11 @@
     {
       "name": "tanish",
       "age": 24,
-      "aadharnumber": 123456,
-      "checkin": "12-09-25",
-      "checkout": "15-10-25",
-      "people": 2,
-      "Total": 1000,
+      "aadhar": "11111111",
+      "checkin": "2025-12-19",
+      "checkout": "2025-12-26",
+      "people": "5",
+      "person": 500,
       "id": "51ed"
     },
     {
@@ -29,50 +29,6 @@
       "people": 3,
       "Total": 1500,
       "id": "5ead"
-    },
-    {
-      "id": "f93f",
-      "name": "Tanish singh Parihar",
-      "age": "",
-      "aadhar": "",
-      "city": "",
-      "checkin": "",
-      "checkout": "",
-      "people": "",
-      "person": 500
-    },
-    {
-      "id": "134b",
-      "name": "Tanish singh Parihar",
-      "age": "25",
-      "aadhar": "",
-      "city": "",
-      "checkin": "",
-      "checkout": "",
-      "people": "",
-      "person": 500
-    },
-    {
-      "id": "c507",
-      "name": "Tanish singh Parihar",
-      "age": "25",
-      "aadhar": "1",
-      "city": "",
-      "checkin": "",
-      "checkout": "",
-      "people": "",
-      "person": 500
-    },
-    {
-      "id": "e111",
-      "name": "Tanish singh Parihar",
-      "age": "25",
-      "aadhar": "11",
-      "city": "",
-      "checkin": "",
-      "checkout": "",
-      "people": "",
-      "person": 500
     },
     {
       "id": "6582",
