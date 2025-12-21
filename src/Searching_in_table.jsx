@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
 const on = () => {
+    
 
   let [form,setform]=useState({
     name:"",
@@ -14,6 +15,7 @@ const on = () => {
 
     let [data,setdata]=useState([])
     let[editId,seteditId]=useState(null)
+    let[search,setsearch]=useState("")
 
     let fetchdata=()=>{
   let api="http://localhost:3000/hotel"
@@ -56,11 +58,17 @@ const on = () => {
   let formopen=(e)=>{
     seteditId(e.id)
     setform({name:e.name,age:e.age,aadhar:e.aadhar,city:e.city,checkin:e.checkin,checkout:e.checkout,people:e.people})
-
   }
+
+  let filterdata=data.filter((e)=>{
+    return(e.name.toLowerCase().includes(search.toLowerCase())
+     || e.age.toString().includes(search.toString())
+  )})
 
   return (
     <>
+
+    Search: <input type="text" value={search} onChange={(e)=>{setsearch(e.target.value)}} />
       <h1>data show page</h1>
 
       <table border={2}>
@@ -80,7 +88,7 @@ const on = () => {
           </tr>
         </thead>
         <tbody>
-          {data.map((e) => (
+          {filterdata.map((e) => (
             <tr key={e.id}>
               <td>{e.name}</td>
               <td>{e.age}</td>
