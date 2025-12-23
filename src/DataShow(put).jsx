@@ -91,7 +91,7 @@ const on = () => {
               <td>{e.people}</td>
               <td>{e.people * e.person}</td>
               <td onClick={() => datadelete(e.id)} style={{ cursor: "pointer", color: "red" }}>
-                Delete
+                Delete 
               </td>
               <td onClick={() => formopen(e)} style={{ cursor: "pointer", color: "blue" }}>
                 Edit
