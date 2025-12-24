@@ -11,6 +11,7 @@ import { BrowserRouter } from 'react-router-dom'
 let mydata={
   myname:"tanish",
   myage:25,
+  mycity:"bhopal"
 }
 
 createRoot(document.getElementById('root')).render(
