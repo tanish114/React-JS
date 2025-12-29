@@ -4,7 +4,6 @@ const Navbar=()=>{
 <li>home</li>
 <li>register</li>
 <li>about</li>
-<li>kadnx</li>
 </ul>
         // <p>Navbar</p>
 
