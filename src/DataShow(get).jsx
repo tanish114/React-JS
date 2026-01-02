@@ -12,7 +12,7 @@ const DataShow1 = () => {
             console.log(res.data)
 
         })
-    },[])
+    })
   return (
     <>
       
