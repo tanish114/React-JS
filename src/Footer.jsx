@@ -3,6 +3,7 @@ const Footer=()=>{
 
     return(
         <p>Contact</p>
+          <p>Contact</p>
     )
 }
 
